@@ -1,5 +1,5 @@
 # das-1-2025-2-a
-
+- 04/08/2025
 O que é uma abstração ?
 - É o processo de esconder detalhes complexos e não essenciais de um objeto, concentrando-se apenas nos aspectos fundamentais para o contexto específico.
 
@@ -56,3 +56,7 @@ class Casa {
 
 Acoplamento:
 Refere-se aograu de interdependência entre diferentes partes de um sistema de software, como módulos, classes ou funções.
+
+05/08/2025
+
+
