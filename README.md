@@ -1,4 +1,6 @@
 # das-1-2025-2-a
+Bloquinho -> https://www.bloquinho.app/waltercoan
+
 - 04/08/2025
 O que é uma abstração ?
 - É o processo de esconder detalhes complexos e não essenciais de um objeto, concentrando-se apenas nos aspectos fundamentais para o contexto específico.
@@ -58,5 +60,19 @@ Acoplamento:
 Refere-se aograu de interdependência entre diferentes partes de um sistema de software, como módulos, classes ou funções.
 
 05/08/2025
+
+SOLID
+
+- Consiste em usar a POO do jeito mais correto possivel, que são 5 princípois.
+
+S
+- Princípio da responsabilidade única, que cada classe tem sua tarefa como o MVC
+- - M -> Model
+  - C -> Controller
+  - V -> View
+
+O
+- Princípios da segregação de interfaces, que significa que uma classe não deve chamar diretamente outra classe, em que cada Interface tem sua responsabilidade
+
 
 
