@@ -74,5 +74,16 @@ S
 O
 - Princípios da segregação de interfaces, que significa que uma classe não deve chamar diretamente outra classe, em que cada Interface tem sua responsabilidade
 
+L
+-  Princípio de Inversão de Dependências. Esse princípio orienta que classes devem depender de abstrações (interfaces), e não de implementações concretas (classes).
+Isso reduz o acoplamento e torna o sistema mais flexível e estável frente a mudanças. Ao depender de interfaces, um cliente não é afetado por alterações na implementação,
+podendo trocar uma classe por outra sem impacto. Por isso, uma forma mais intuitiva de entendê-lo seria: prefira interfaces a classes.
 
+I
+- Prefira Composição a Herança 
+Existem dois tipos de herança:
+- Herança de classes, que envolve reuso de código (ex: class A extends B).
+- Herança de interfaces, que não envolve reuso de código (ex: interface I extends J).
+- No passado, a herança de classes foi muito incentivada como solução para reuso, mas depois percebeu-se que ela gera forte acoplamento entre superclasses e subclasses, violando o encapsulamento e dificultando manutenção e evolução.
+- O princípio não proíbe herança, mas recomenda que, quando possível, prefira composição (uma classe contendo outra como atributo) à herança, pois a composição tende a gerar sistemas mais flexíveis e menos acoplados.
 
